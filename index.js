@@ -13,6 +13,6 @@ inquirer
     }])
     .then((answers) => {
         console.log("#" + answers["title"] + "\r\n");
-        console.log(answers["description"]);
+        console.log("##" + "Description" + "\r\n" + answers["description"]);
     });
     
